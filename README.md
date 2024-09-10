@@ -207,6 +207,10 @@ Steps 12 - 14: The order service receives the packets, decodes them, and sends t
 
 ### What is a webhook?
 
+A webhook is a request from a foreign service to your service without your service sending a request first. You could imagine it like an *event* that is spawend from a different service and you're service gets notified of it. 
+
+Webhooks are used when a service wants to know when something happend in another service. It is an alternative to using polling.
+
 The diagram below shows a comparison between polling and Webhook. 
 
 <p>
